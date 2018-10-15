@@ -1,0 +1,22 @@
+table {
+	width: 250px;
+	height: 125px;
+	border-radius: 10 10 10 10;
+	border-color: red;
+}
+#table {
+	position: absolute;
+	top: 45%;
+	right: 45%;
+}
+#button {
+	position: absolute;
+	top: 125px;
+	right: -0px;
+}
+button {
+	border-radius: 20 20 20 20;
+	border-color: red;
+	width: 120px;
+	height: 35px;
+}

@@ -1,0 +1,94 @@
+kutu {
+	width: 200px;
+    padding: 30px;
+    border: 20px #FF0004;
+    padding: 25px;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	position: absolute;
+	right: 740px;
+	top: 320px;
+}
+
+input {
+	margin: 10px;
+	widows: 400px;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #ccc
+}
+input:focus{
+	border-bottom: 2px solid dodgerblue;
+}
+
+.fa{
+	position: absolute;
+	right: -25px;
+	top: 5px;
+	font-size: 25px;
+	cursor: pointer;
+	color: #999
+}
+
+.fa.active{
+	color: dodgerblue;
+	
+}
+#yazi3 {
+	position: absolute;
+	left: 50px;
+	top: 30px;
+}
+#menu {
+	position: absolute;
+		left: 50px;
+		top: 150px;
+}
+
+		#yazi {
+			position:absolute;
+			right: 915px;
+			top: 290px;
+		}
+		#yazi1 {
+			position:absolute;
+			right: 915px;
+			top: 325px;
+		}
+		#text1 {
+			position: absolute;
+			right: 750px;
+			top: 295px;
+			font-size: 15px;
+		}
+		#text2 {
+			position: absolute;
+			right: 200px;
+			top: 63px;
+		}
+		#button1 {
+			position: absolute;
+			right: 50%;
+			top: 50%;
+			background:#FF0004;
+			border: 1px solid #000000;
+			padding: 1px;
+		}
+		#link {
+			position: absolute;
+			left: 100px;
+			top: 100px;
+		}
+		#hovercolor:hover {
+			color:#FF0004
+		}
+		.menu1{ width:1200px; height:28px; margin:30px 0 0 0}
+.menu1 ul{ margin:0; padding:0; list-style:none}
+.menu1 ul li{float: left}
+.menu1 ul li a{ display:block; width:275px; height:30px; background:#FF0000; color:#000000; font: bold 20px tahoma; text-decoration: none; padding: 8px 0 0 0; box-shadow: 0 5px 4px #000000; border-radius: 10px 10px 10px 10px; text-align: center}
+.menu1 ul li a:hover{color: #fff; background:#AA0505 ; text-decoration: underline}
